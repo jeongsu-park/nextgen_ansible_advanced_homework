@@ -1,6 +1,6 @@
 - name: Create app1 server instance
   os_server:
-    cloud: ospcloud
+    cloud: openstack
     name: frontend
     image: rhel-guest
     meta: group=lbs,deployment_name=dev
@@ -19,7 +19,7 @@
 
 - name: Add floating IP to app1
   os_floating_ip:
-    cloud: ospcloud
+    cloud: openstack
     state: present
     reuse: yes
     server: frontend
