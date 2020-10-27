@@ -1,7 +1,7 @@
---
+---
 - name: Copy repo file
-  copy:
-    src: internal.repo
+  template:
+    src: internal.repo.j2
     dest: /etc/yum.repos.d/internal.repo
     
 - name: install tomcat
