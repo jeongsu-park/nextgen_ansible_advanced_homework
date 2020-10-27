@@ -1,4 +1,4 @@
-export TOWER_GUID=f226
+export TOWER_GUID=20ec
 export OSP_GUID=5a9f
 export OSP_DOMAIN=blue.osp.opentlc.com
 export OPENTLC_ID=jparks7-kolon.com
