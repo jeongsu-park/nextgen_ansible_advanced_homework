@@ -3,7 +3,7 @@
     cloud: openstack
     name: frontend
     image: rhel-guest
-    meta: group=lbs,deployment_name=dev
+    meta: group=frontends,deployment_name=dev
     flavor: m1.medium
     security_groups: frontend
     key_name: ansible_ssh
