@@ -11,7 +11,7 @@
   become: yes
   roles:
     - {name: base-config, tags: base-config}
-    - {name: lb-tier, tags: [lbs,haproxy]}
+    - {name: lb-tier, tags: [frontends,haproxy]}
 
 # Setup application servers tier
 
